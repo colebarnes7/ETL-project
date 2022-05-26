@@ -9,6 +9,7 @@
 ## Data Sources
 https://www.kaggle.com/datasets/victorsoeiro/amazon-prime-tv-shows-and-movies?select=credits.csv
 <br>
+<br>
 https://www.kaggle.com/datasets/victorsoeiro/amazon-prime-tv-shows-and-movies?select=titles.csv
 
 ## Data Description
@@ -39,3 +40,8 @@ conda install -c anaconda sqlalchemy
 conda install -c anaconda sqlite
 conda install -c anaconda psycopg2
 ```
+
+## Featured Notebooks
+| Document Title | Purpose |
+| ------------- | ------------- |
+| extract_notebook.ipynb | Imported datasets, cleaned them and outputted to csv file |
