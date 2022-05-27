@@ -46,3 +46,4 @@ conda install -c anaconda psycopg2
 | Document Title | Purpose |
 | ------------- | ------------- |
 | extract_notebook.ipynb | Imported datasets, cleaned them and outputted to csv file |
+| queries.sql | Schema design for tables in postgreSQL database |
