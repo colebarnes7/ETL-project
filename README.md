@@ -48,3 +48,4 @@ conda install -c anaconda psycopg2
 | extract_notebook.ipynb | Imported datasets, cleaned them and outputted to csv file |
 | queries.sql | Schema design for tables in postgreSQL database |
 | load.ipynb | Loads cleaned datasets into the postgreSQL database |
+| join.sql | Query to join the 2 tables together in postgreSQL |
