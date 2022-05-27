@@ -1,4 +1,5 @@
 # ETL-project
+The purpose of this project was to find 2 datasets with a column they could be joined on and then perform an ETL (Extract, Transform, and Load) on those datasets. The datasets we choose contained information on Amazon Prime shows and movies and the actors and directors of those media. The datasets were extracted into a jupyter notebook, transformed and cleaned using pandas and then loaded into a postgreSQL database. A query was then designed to join the tables together on their common column.
 
 ## Contributors
 * Cole Barnes
