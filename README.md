@@ -50,10 +50,6 @@ conda install -c anaconda psycopg2
 | load.ipynb | Loads cleaned datasets into the postgreSQL database |
 | join.sql | Query to join the 2 tables together in postgreSQL |
 
-<<<<<<< HEAD
-
-=======
->>>>>>> ryan
 ## Data Cleaning
 To clean the credits.csv file, first any rows with missing information were dropped. A unique ID column was then added to act as the primary key and the previously labeled id column was switched to media_id.
 <br>
