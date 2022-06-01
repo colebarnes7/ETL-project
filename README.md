@@ -1,5 +1,5 @@
 # ETL-project
-The purpose of this project was to find 2 datasets with a column they could be joined on and then perform an ETL (Extract, Transform, and Load) on those datasets. The datasets we choose contained information on Amazon Prime shows and movies and the actors and directors of those media. The datasets were extracted into a jupyter notebook, transformed and cleaned using pandas and then loaded into a postgreSQL database. A query was then designed to join the tables together on their common column.
+The purpose of this project was to find 2 datasets with a column they could be joined on and then perform an ETL (Extract, Transform, and Load) on those datasets. The datasets we choose contained information on Amazon Prime shows, movies, the actors, and directors of those media. The datasets were extracted into a jupyter notebook, transformed and cleaned using pandas and then loaded into a postgreSQL database. A query was then designed to join the tables together on their common column.
 
 ## Contributors
 * Cole Barnes
@@ -50,7 +50,10 @@ conda install -c anaconda psycopg2
 | load.ipynb | Loads cleaned datasets into the postgreSQL database |
 | join.sql | Query to join the 2 tables together in postgreSQL |
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ryan
 ## Data Cleaning
 To clean the credits.csv file, first any rows with missing information were dropped. A unique ID column was then added to act as the primary key and the previously labeled id column was switched to media_id.
 <br>
