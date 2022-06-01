@@ -61,4 +61,4 @@ To clean the credits.csv file, first any rows with missing information were drop
 To clean the titles.csv file, columns with missing information were dropped first. A unique ID column was added here as well and once again the column labeled "id" was switched to media_id.
 
 ## Database Loading
-To load the datasets into postgreSQL, first a new database was created called etl_project. Tables were then created using the queries.sql file included in the repo. The jupyter notebook file load.ipynb was then ran to import the cleaned csv files we created into the database.
+To load the datasets into postgreSQL, first a new database was created called etl_project. Then tables were created using the queries.sql file included in the repo. The jupyter notebook file load.ipynb was then ran to import the cleaned csv files we created into the database.
